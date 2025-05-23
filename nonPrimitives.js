@@ -17,4 +17,4 @@ console.log(today.getDay());
 let heroes = ["Mr a","b",78];
 console.log(heroes[2]);
 
- 
+ console.log(typeof NaN);
