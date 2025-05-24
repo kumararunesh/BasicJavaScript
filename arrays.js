@@ -38,3 +38,11 @@ console.log(len);
 
 let doesContain = a3.includes(2);
 console.log(doesContain);
+
+let a4 = a3.reverse();
+console.log(a4);
+
+let names = ["Raj","Vicky","Arunesh"];
+let games = names.slice();
+names.pop();
+console.log(games);
