@@ -12,3 +12,16 @@ let getScore = score;
 console.log(getScore);
 console.log("HEllo");
 
+let user = {name:"Kumar Arunesh",age:30};
+console.log(user);
+console.log(user.age);
+
+user.age = 100;
+console.log("age is "+user.age +"!");
+
+let city = "Delhi";
+let updated = "welcome to".concat(" "+city);
+console.log(updated);
+
+
+
