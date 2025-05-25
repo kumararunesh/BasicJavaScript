@@ -1,0 +1,42 @@
+// let name = prompt("Enter your name:");
+// console.log("Hello, " + name + "!");
+
+// let teaCollection=[];
+// let tea;
+// do{
+//     tea = prompt("Enter your tea");
+//     if(tea!=="stop")
+//     {teaCollection.push(tea);}
+// }while(tea!=="stop");
+// console.log(teaCollection);
+
+let num=1;
+let total=0;
+do{
+  total += num;
+  num++;
+}while(num<=3)
+console.log(total);
+
+let arr = [2,4,6];
+let mulArr=[];
+for(let i =0;i<arr.length;i++)
+{
+    mulArr[i]=arr[i]*2;
+}
+console.log(mulArr);
+
+for(let i = 0;i<mulArr.length;i++ )
+{
+    console.log(mulArr[i]);
+    
+}
+
+let city = ["Paris","New York","Tokyo","london"];
+let cityList=[];
+for(let index = 0;index<city.length;index++)
+{
+    cityList.push(city[index])
+}
+console.log(cityList);
+
